@@ -1,0 +1,160 @@
+.container{
+    position: relative;
+    width: 1440px;
+    height: 1957px;
+    display: flex;
+    /* Fondo */
+
+    background: #171718;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+
+    position: absolute;
+    width: 1440px;
+    height: 69px;
+    left: 0px;
+    top: 0px;
+    justify-content: flex-end;
+}
+
+.header{
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 1440px;
+    height: 69px;
+    left: 0px;
+    top: 0px;
+}
+.logo{
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: relative;
+    width: 112px;
+    /*height: 32px;*/
+    left: 142px;
+    top: 18px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+.logo__text{
+    /* Miguel UI */
+
+
+    position: static;
+    width: 112px;
+    height: 32px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+
+    /* Blanco */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px; /*było 0 10*/
+}
+.header__nav{
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    position: absolute;
+    width: 398px;
+    height: 32px;
+    left: 900px;
+    top: 18px;
+
+
+
+}
+.header__nav-button{
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    height: 16px;
+    left: 304px;
+    top: 8px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+.header__nav-button-text{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.header-container__separator{
+    position: static;
+    width: 1440px;
+    height: 1px;
+    left: 0px;
+    top: 68px;
+
+    /* Bordes */
+
+    background: #26292D;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+    border-width: 0;
+}
