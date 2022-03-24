@@ -17,33 +17,28 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
-
+    padding: 0;
     position: static;
     width: 568px;
     height: 547px;
     left: 730px;
     top: 64px;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 0px 140px;
+    margin: 0 140px;
 }
 
 .banner__text-about-header{
     position: static;
     width: 304px;
     height: 71px;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
 
     /* H1 Headline */
 
-    font-family: 'DM Sans', serif;
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
