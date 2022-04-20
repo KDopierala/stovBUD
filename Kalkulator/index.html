@@ -1,46 +1,40 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport"
-            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <link rel="stylesheet" href="./CSS/main.css">
-      <title>Kalkulator</title>
-
-  </head>
-  <body>
-    <div class="containter">
-      <div class="action">
-        <div class="action__previous"></div>
-        <div class="action__current"></div>
-      </div>
-      <div class="buttons">
-          <div class="buttons__number">1</div>
-          <div class="buttons__number">2</div>
-          <div class="buttons__number">3</div>
-          <div class="buttons__number">4</div>
-          <div class="buttons__number">5</div>
-          <div class="buttons__number">6</div>
-          <div class="buttons__number">7</div>
-          <div class="buttons__number">8</div>
-          <div class="buttons__number">9</div>
-          <div class="buttons__number">0</div>
-          <div class="buttons__number">•</div>
-
-          <div class="buttons__operator">+</div>
-          <div class="buttons__operator">-</div>
-          <div class="buttons__operator">%</div>
-          <div class="buttons__operator">√</div>
-          <div class="buttons__operator">÷</div>
-          <div class="buttons__operator">×</div>
-          <div class="buttons__operator">^</div>
-          <div class="buttons__operator">log</div>
-
-          <div class="buttons__clear">AC</div>
-          <div class="buttons__delete">DEL</div>
-          <div class="buttons__result">=</div>
-      </div>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Najlepszy kalkulator</title>
+    <link rel="stylesheet" href="./CSS/main.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<div class="kalkulator">
+    <div class="wynik">
+        <div class="poprzednie-dzialanie"></div>
+        <div class="aktualne-dzialanie"></div>
     </div>
-  </body>
+    <button class="col-dwa wyczysc">AC</button>
+    <button class="usun">DEL</button>
+    <button class="operator">√</button>
+    <button class="operator">÷</button>
+    <button class="liczba">1</button>
+    <button class="liczba">2</button>
+    <button class="liczba">3</button>
+    <button class="operator">^</button>
+    <button class="operator">&times</button>
+    <button class="liczba">4</button>
+    <button class="liczba">5</button>
+    <button class="liczba">6</button>
+    <button class="operator">%</button>
+    <button class="operator">-</button>
+    <button class="liczba">7</button>
+    <button class="liczba">8</button>
+    <button class="liczba">9</button>
+    <button class="operator">log</button>
+    <button class="row-dwa operator">+</button>
+    <button class="liczba">•</button>
+    <button class="liczba">0</button>
+    <button class="col-dwa rownosc">=</button>
+</div>
+</body>
 </html>
